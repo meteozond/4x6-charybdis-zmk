@@ -15,6 +15,7 @@ config ZMK_SPLIT
 	
 endif
 
+// Backlight
 if ZMK_BACKLIGHT
 
 config PWM
