@@ -22,9 +22,9 @@
     require-prior-idle-ms = <150>;
 };
 
-&led_strip {
-     chain-length = <21>;
-};
+// &led_strip {
+//     chain-length = <21>;
+//};
 
 / {
     chosen { zmk,matrix_transform = &five_column_transform; };
