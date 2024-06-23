@@ -60,7 +60,7 @@
 
 
     keymap {
-        compatible = "zmk,matrix-transform";
+        compatible = "zmk,keymap";
         Base {
             label = "Base";
             bindings = <
