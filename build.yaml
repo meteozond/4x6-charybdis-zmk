@@ -3,6 +3,6 @@ include:
 #    shield: charybdis_left
   - board: nice_nano_v2
     shield: charybdis_right
-    snippet: zmk-usb-logging
+    snippet: cdc-acm-console
 #  - board: nice_nano_v2
 #    shield: settings_reset
