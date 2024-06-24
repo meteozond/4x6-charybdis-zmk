@@ -23,6 +23,10 @@
 //    pinctrl-names = "default", "sleep";
 //};
 
+zephyr_udc0: &usbd {
+    status = "okay";
+};
+
 //underglow
 &pinctrl {
     spi3_default: spi3_default {
