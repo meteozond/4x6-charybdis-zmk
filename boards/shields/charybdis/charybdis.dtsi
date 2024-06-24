@@ -23,20 +23,6 @@
 //    pinctrl-names = "default", "sleep";
 //};
 
-&gpio1 {
-    pinctrl-0 = <&gpio1_default>;
-    status = "okay";
-};
-
-&gpio1_default {
-    gpio1: pinmux {
-        pinctrl-0 = <&gpio_pin1_07_disable>;
-    };
-};
-
-&gpio_pin1_07_disable {
-    pinmux = <NRF_PSEL(NRF_PSEL_DISCONNECTED)>;
-};
 
 zephyr_udc0: &usbd {
     status = "okay";
