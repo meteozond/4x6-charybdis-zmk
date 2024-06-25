@@ -1,11 +1,11 @@
 manifest:
   remotes:
-#    - name: zmkfirmware
-#      url-base: https://github.com/petejohanson
-#    - name: inorichi
-#      url-base: https://github.com/inorichi
-#    - name: meteozond
-#      url-base: https://github.com/meteozond
+    - name: zmkfirmware
+      url-base: https://github.com/petejohanson
+    - name: inorichi
+      url-base: https://github.com/inorichi
+    - name: meteozond
+      url-base: https://github.com/meteozond
     - name: Luberry
       url-base: https://github.com/Luberry
   projects:
