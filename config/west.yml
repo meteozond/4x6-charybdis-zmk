@@ -9,16 +9,16 @@ manifest:
     - name: Luberry
       url-base: https://github.com/Luberry
   projects:
-#    - name: zmk
-#      remote: zmkfirmware
-#      revision: feat/pointers-move-scroll
-#      import: app/west.yml
     - name: zmk
-      remote: Luberry
-      revision: pmw3389
+      remote: zmkfirmware
+      revision: feat/pointers-move-scroll
       import: app/west.yml
-#    - name: zmk-pmw3610-driver
-#      remote: inorichi
-#      revision: main
+#    - name: zmk
+#      remote: Luberry
+#      revision: pmw3389
+#      import: app/west.yml
+    - name: zmk-pmw3610-driver
+      remote: inorichi
+      revision: main
   self:
     path: config
