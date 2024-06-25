@@ -7,7 +7,7 @@ manifest:
     - name: meteozond
       url-base: https://github.com/meteozond
     - name: Luberry
-      url-base: https://github.com/Luberry/zmk/tree/pmw3389
+      url-base: https://github.com/Luberry/
   projects:
 #    - name: zmk
 #      remote: zmkfirmware
