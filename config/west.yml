@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/meteozond
     - name: Luberry
       url-base: https://github.com/Luberry
+    - name: cdc-mkb
+      url-base: https://github.com/cdc-mkb
   projects:
 #    - name: zmk
 #      remote: zmkfirmware
@@ -24,6 +26,11 @@ manifest:
       remote: Luberry
       revision: pmw3389
       import: app/west.yml
+#    - name: zmk
+#      remote: cdc-mkb
+#      revision: mouse-pim447
+#      import: app/west.yml
+
     - name: zmk-pmw3610-driver
       remote: inorichi
       revision: main

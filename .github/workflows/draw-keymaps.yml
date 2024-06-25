@@ -8,7 +8,7 @@ on:
 #      - "keymap_drawer.config.yaml"
 jobs:
   draw:
-    uses: theninj4/zmk/.github/workflows/build-user-config.yml@pmw3389
+    uses: Luberry/zmk/.github/workflows/build-user-config.yml@pmw3389
     permissions:
       contents: write
     with:
