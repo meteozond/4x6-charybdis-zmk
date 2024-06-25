@@ -6,10 +6,16 @@ manifest:
       url-base: https://github.com/inorichi
     - name: meteozond
       url-base: https://github.com/meteozond
+    - name: Luberry
+      url-base: https://github.com/Luberry/zmk/tree/pmw3389
   projects:
+#    - name: zmk
+#      remote: zmkfirmware
+#      revision: feat/pointers-move-scroll
+#      import: app/west.yml
     - name: zmk
-      remote: zmkfirmware
-      revision: feat/pointers-move-scroll
+      remote: Luberry
+      revision: pmw3389
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: inorichi
