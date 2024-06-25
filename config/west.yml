@@ -4,13 +4,15 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: inorichi
       url-base: https://github.com/inorichi
+    - name: meteozond
+      url-base: https://github.com/meteozond
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: inorichi
+      remote: meteozond
       revision: main
   self:
     path: config
