@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/petejohanson
-    - name: inorichi
-      url-base: https://github.com/inorichi
-    - name: meteozond
-      url-base: https://github.com/meteozond
+#    - name: zmkfirmware
+#      url-base: https://github.com/petejohanson
+#    - name: inorichi
+#      url-base: https://github.com/inorichi
+#    - name: meteozond
+#      url-base: https://github.com/meteozond
     - name: Luberry
       url-base: https://github.com/Luberry
   projects:
@@ -17,8 +17,8 @@ manifest:
       remote: Luberry
       revision: pmw3389
       import: app/west.yml
-    - name: zmk-pmw3610-driver
-      remote: inorichi
-      revision: main
+#    - name: zmk-pmw3610-driver
+#      remote: inorichi
+#      revision: main
   self:
     path: config
