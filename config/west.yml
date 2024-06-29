@@ -17,15 +17,15 @@ manifest:
 #      remote: zmkfirmware
 #      revision: main
 #      import: app/west.yml
-#    - name: zmk
-#      remote: petejohanson
-#      revision: feat/pointers-move-scroll
-#      import: app/west.yml
-
     - name: zmk
-      remote: Luberry
-      revision: pmw3389
+      remote: petejohanson
+      revision: feat/pointers-move-scroll
       import: app/west.yml
+
+#    - name: zmk
+#      remote: Luberry
+#      revision: pmw3389
+#      import: app/west.yml
 #    - name: zmk
 #      remote: cdc-mkb
 #      revision: mouse-pim447
