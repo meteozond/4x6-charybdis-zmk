@@ -2,4 +2,4 @@ name: Build ZMK firmware
 on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
-    uses: Luberry/zmk/.github/workflows/build-user-config.yml@pmw3389
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
